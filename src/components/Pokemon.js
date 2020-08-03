@@ -43,10 +43,10 @@ function Pokemon(props) {
                         Species:{species.name}
                     </Typography>
                     <Typography>
-                        Height:{height}
+                        Height:{height} feet
                     </Typography>
                     <Typography>
-                        Weight:{weight}
+                        Weight:{weight} pounds
                     </Typography>
                     <Typography variant='h6'>Types:</Typography>
                     {types.map(typeInfo=>{
