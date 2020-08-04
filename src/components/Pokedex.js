@@ -29,6 +29,9 @@ const useStyles=makeStyles({
   textField:{
       margin:'2px',
       width:'200px'
+  },
+  cardDes: {
+    backgroundColor: "#fce9e6"
   }
 })
 
@@ -63,7 +66,7 @@ const Pokedex=(props)=>{
     const {id,name,sprite}=pokemonData[pokemonId]
     return(
       <Grid item xs={12} sm={6} md={3} key={pokemonId}>
-        <Card onClick={()=>history.push(`/${id}`)}>
+        <Card onClick={()=>history.push(`/${id}`)} className={classes.cardDes}>
           <CardActionArea>
             <CardMedia
               className={classes.cardMedia}
