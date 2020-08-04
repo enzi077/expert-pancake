@@ -1,3 +1,7 @@
+# Pokedex
+
+Anthony Sistilli's YouTube series on pokedex's modification
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
